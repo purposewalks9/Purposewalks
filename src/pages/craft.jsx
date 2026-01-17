@@ -52,6 +52,15 @@ const Craft = () => {
             technologies: ['Figma', 'Prototyping'],
             figma: 'https://figma.com',
             behance: 'https://www.behance.net/gallery/235822549/Billport-Fintech-App'
+        },
+        {
+            id: 6,
+            title: 'Rwu Inc. Job recruit website with admin portal',
+            image: 'https://res.cloudinary.com/do4b0rrte/image/upload/v1768271903/Frame_2147226389_rwxiaf.png',
+            type: 'FullStack',
+            technologies: ['React', 'Tailwind', 'Firebase'],
+            figma: '',
+            demo: 'https://ru-4irr.vercel.app/'
         }
     ];
 
