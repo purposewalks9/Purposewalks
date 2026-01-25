@@ -60,7 +60,7 @@ const Craft = () => {
             type: 'FullStack',
             technologies: ['React', 'Tailwind', 'Firebase'],
             figma: '',
-            demo: 'https://ru-4irr.vercel.app/'
+            demo: ''
         }
     ];
 
