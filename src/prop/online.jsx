@@ -33,7 +33,7 @@ const OnlineStatus = () => {
       ></span>
 
       <span className={`${isOnline ? "text-green-500" : "text-red-500"}`}>
-        {isOnline ? "Your Online" : "Your Offline"}
+        {isOnline ? "Online" : "Offline"}
       </span>
     </div>
   );

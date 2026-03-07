@@ -36,7 +36,7 @@ const Home = () => {
         <div className={`w-full flex flex-row justify-between pb-4 border-b-[1px] ${darkMode ? 'border-gray-700' : 'border-gray-300'} items-center gap-6 gap-x-8 md:gap-x-20 lg:gap-x-100`}>
           <div className="flex flex-col text-left gap-y-2">
             <h1 className="text-base sm:text-lg font-bold">Purpose</h1>
-            <p className={`text-xs sm:text-sm ${darkMode ? 'text-gray-400' : 'text-gray-700'}`}>Designer , Frontend Developer</p>
+            <p className={`text-xs sm:text-sm ${darkMode ? 'text-gray-400' : 'text-gray-700'}`}>Full Stack Developer</p>
             <div className="flex flex-row gap-x-3 sm:gap-x-4 mt-2 sm:mt-2 text-sm">
               <a href="https://discord.com/users/purpos_e" className="transition-transform hover:scale-110" style={{ color: '#5865F2' }}>
                 <svg width="18" height="18" className="sm:w-5 sm:h-5" viewBox="0 0 24 24" fill="currentColor">
