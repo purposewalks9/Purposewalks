@@ -67,7 +67,6 @@ git push origin main`;
 
   return (
     <div className={`min-h-screen ${darkMode ? ' text-gray-300' : 'bg-white text-gray-700'}`}>
-         <Fade direction="down"  duration={1600} triggerOnce>
       <main className="max-w-3xl mx-auto px-4 sm:px-6 py-8 pb-20">
          <div className=" mt-10 md:mt-20  lg:mt-20">
                 <div className={`flex flex-row p-2 cursor-pointer rounded-full max-w-20 ${darkMode ? 'text-black bg-white hover:bg-gray-400' : 'bg-black text-white hover:bg-gray-700'} items-center mb-10`} onClick={() => { navigate('/blog'); }}>
@@ -278,7 +277,7 @@ git push origin main`;
         </section>
       </div>
       </main>
-      </Fade>
+     
 
       {/* Fixed Bottom navbar */}
       <div className="fixed bottom-10 left-0 right-0 z-50">

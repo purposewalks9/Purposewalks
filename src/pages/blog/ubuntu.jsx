@@ -143,7 +143,7 @@ iwconfig`;
     return (
         <div className={`min-h-screen ${darkMode ? ' text-gray-300' : ' text-gray-700'}`}>
             {/* Main Content - Added pb-20 to prevent content from being hidden behind navbar */}
-             <Fade direction="right"  duration={1600} triggerOnce>
+          
             <main className="max-w-3xl mx-auto px-6 py-8 pb-20">
                 <div className=" mt-10 md:mt-20  lg:mt-20">
               <div className={`flex flex-row p-2 cursor-pointer rounded-full max-w-20 ${darkMode ? 'text-black bg-white hover:bg-gray-400' : 'bg-black text-white hover:bg-gray-700'} items-center mb-10`} onClick={() => { navigate('/blog'); }}>
@@ -394,7 +394,7 @@ iwconfig`;
                 </section>
                 </div>
             </main>
-            </Fade>
+        
 
 
             {/* Fixed Bottom navbar */}
