@@ -61,6 +61,15 @@ const Craft = () => {
             technologies: ['React', 'Tailwind', 'Firebase'],
             figma: '',
             demo: 'https://rwu-seven.vercel.app/'
+        },
+        {
+            id: 6,
+            title: 'Hookraft is a React hooks library for managing lifecycle, side effects, and async flows in a clean, predictable way',
+            image: 'https://res.cloudinary.com/do4b0rrte/image/upload/v1774660658/Hookraft_Light_t2esda.png',
+            type: 'FullStack',
+            technologies: ['React', 'Tailwind',],
+            figma: '',
+            demo: 'https://hookraft.site/'
         }
     ];
 
