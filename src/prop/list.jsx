@@ -10,7 +10,6 @@ const List = () => {
     const navigate = useNavigate();
 
     const posts = [
-        { title: "UNPLUGGED", description: "Python script for Ubuntu Wi-Fi deauthentication attacks.", path: "/blog/ubuntu" },
         { title: "Salary Prediction Model", description: "Predicting salaries using a PyTorch linear regression model.", path: "/blog/salary" },
         { title: "Lyrics Finder", description: "A simple Python script to search and display song lyrics using the Lyrics.ovh API", path: "/blog/lyrics" },
         { title: "Sales Report Software", description: "Automated Python tool for generating and sending daily sales reports via WhatsApp", path: "/blog/sales" },
