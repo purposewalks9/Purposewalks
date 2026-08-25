@@ -23,7 +23,7 @@ export default function Home() {
   return (
     <div className="max-w-2xl p-8 md:p-12 lg:p-20 relative text-left overflow-hidden mx-auto min-h-screen flex flex-col justify-center items-start gap-y-8">
       <Fade direction="up" delay={200} duration={1200} triggerOnce>
-        <div className="w-full flex flex-row justify-between items-start pb-4 gap-x-40">
+        <div className="w-full flex flex-row justify-between items-start pb-4 gap-x-24 md:gap-x-40">
           <div className="flex flex-col text-left w-full gap-y-2">
             <h1 className="text-3xl sm:text-4xl md:text-5xl font-extrabold leading-tight tracking-tight">
               Purpose
