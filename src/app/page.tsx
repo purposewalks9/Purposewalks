@@ -70,15 +70,7 @@ export default function Home() {
             </span>{" "}
             that make software feel <span className="font-bold text-foreground">right</span>.
             <br />
-            I&apos;m building{" "}
-            <Link
-              href="https://runic-labs.lol"
-
-              className="underline font-medium text-foreground"
-            >
-              @runic
-            </Link>
-            , and I spend most of my time blending engineering, design and experimentation to make
+                I spend most of my time blending engineering, design and experimentation to make
             the{" "}
             <Link href="/craft" className="underline font-medium text-foreground">
               internet
